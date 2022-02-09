@@ -1,0 +1,5 @@
+title Lolminer TRX Unminable
+!wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.42/lolMiner_v1.42_Lin64.tar.gz
+!tar -xf lolMiner_v1.42_Lin64.tar.gz
+%cd 1.42/
+!./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user ZEC:t1VTwMgtwDVTvdaMB8j9rDnmzfw5ZnRzDDq.RASSA --ethstratum ETHPROXY
